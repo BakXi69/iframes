@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de iframe 1</title>
+
+
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+        }
+        ul{
+            display: flex;
+            list-style: none;
+
+        }
+        li{
+            padding: 20px;
+            font-size: 1.6em;
+            display: block;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .subzero:hover{
+            color: blue;
+            transition: 0.5s;
+
+        }
+        .scorpion:hover{
+            color: orange;
+            transition: 0.5s;
+
+        }
+        .kunglao:hover{
+            color: rgb(47, 143, 233);
+            transition: 0.5s;
+
+        }
+        .mileena:hover{
+            color: rgb(212, 0, 255);
+            transition: 0.5s;
+
+        }
+        .reptile:hover{
+            color: green;
+            transition: 0.5s;
+
+        }
+        .baraka:hover:hover{
+            color: yellow;
+            transition: 0.5s;
+
+        }
+
+        iframe{
+            display: block;
+            width: 400px;
+            height: 350px;
+            margin: auto;
+            
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Choose your fight</h1>
+
+    <ul>
+        <li><a href="./subzero.html" class="subzero" target="frame">Sub-Zero</a></li>
+        <li><a href="./scorpion.html" class="scorpion" target="frame">Scorpion</a></li>
+        <li><a href="./kunglao.html" class="kunglao" target="frame">Kung Lao</a></li>
+        <li><a href="./mileena.html" class="mileena" target="frame">Mileena</a></li>
+        <li><a href="./reptile.html" class="reptile" target="frame">Reptile</a></li>
+        <li><a href="./cyrax.html" class="baraka" target="frame">Cyrax</a></li>
+       
+    </ul>
+
+    <iframe src="" frameborder="0" name="frame"></iframe>
+
+
+</body>
+</html>
